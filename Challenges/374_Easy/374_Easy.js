@@ -37,6 +37,9 @@ if(args.length > 0){
 		if(/\D+/.test(args[n])){
 			console.log("-----\nInvalid Input at [" + (i) + "]. Numbers Only. Continuing...\n-----");
 			continue;
+		} else if(args[n] > Number.MAX_SAFE_INTEGER){
+			console.log("-----\nInvalid Input at [" + (i) + "]. Number is too large. Continuing...\n-----");
+			continue;
 		}
 
 // -------------
