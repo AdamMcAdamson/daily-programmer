@@ -34,7 +34,7 @@ if(args.length > 0){
 
 		// Test for invalid inputs and skip
 		if(/\D+/.test(args[n])){
-			console.log("-----\nInvalid Input at [" + (i) + "]. Numbers Only. Continuing...\n-----");
+			console.log("-----\nInvalid Input at [" + (n) + "]. Numbers Only. Continuing...\n-----");
 			continue;
 		}
 

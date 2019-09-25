@@ -107,10 +107,10 @@ if(args.length > 0){
 	for (var n = 0; n < args.length; n ++){
 		// Test for invalid inputs and skip
 		if(!/^[0][.][0-9]{1,2}$/.test(args[n])){
-			console.log("-----\nInvalid Input at [" + (i) + "]. Two decimal floats only (ie 0.12). Continuing...\n-----");
+			console.log("-----\nInvalid Input at [" + (n) + "]. Two decimal floats only (ie 0.12). Continuing...\n-----");
 			continue;
 		}  else if(args[n] > 100000000){
-			console.log("-----\nInvalid Input at [" + (i) + "]. Number is too large. Continuing...\n-----");
+			console.log("-----\nInvalid Input at [" + (n) + "]. Number is too large. Continuing...\n-----");
 			continue;
 		}
 		
