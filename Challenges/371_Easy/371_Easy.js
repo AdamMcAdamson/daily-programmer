@@ -27,6 +27,8 @@
 	
 	Given an array of 8 integers between 1 and 8, determine whether it represents a valid 8 queens solution.
 
+	You may optionally handle solutions for any N, not just N = 8.
+	
 */
 
 // init vars
