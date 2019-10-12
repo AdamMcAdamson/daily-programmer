@@ -78,13 +78,14 @@ if(args.length > 0){
 	}
 }
 
-
+// Default output
 console.log('funnel("leave", "eave")    \t=> ' + funnel("leave", "eave"));
 console.log('funnel("reset", "rest")    \t=> ' + funnel("reset", "rest"));
 console.log('funnel("dragoon", "dragon")\t=> ' + funnel("dragoon", "dragon"));
 console.log('funnel("eave", "leave")    \t=> ' + funnel("eave", "leave"));
 console.log('funnel("sleet", "lets")    \t=> ' + funnel("sleet", "lets"));
 console.log('funnel("skiff", "ski")     \t=> ' + funnel("skiff", "ski"));
+
 for(let j = 0; j < args.length-1; j+=2){
 	console.log('funnel("' + args[j] +'", "' + args[j+1] + '")\t=> ' + funnel(args[j], args[j+1]));
 }
